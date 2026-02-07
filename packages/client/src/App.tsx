@@ -10,12 +10,7 @@ function App() {
       .then((data) => setMessage(data.message));
   }, []);
 
-  return (
-    <div className="p-4">
-      <p className="font-bold text-3xl">{message}</p>
-      {/* <Button>Click me</Button> */}
-    </div>
-  );
+  return <p className="font-bold text-3xl">{message}</p>;
 }
 
 export default App;
