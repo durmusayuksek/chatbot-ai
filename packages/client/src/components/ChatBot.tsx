@@ -97,7 +97,6 @@ const ChatBot = () => {
             {error && <p className="text-red-500">{error}</p>}
          </div>
          <form
-            // eslint-disable-next-line react-hooks/refs
             onSubmit={handleSubmit(onSubmit)}
             onKeyDown={onKeyDown}
             className="flex flex-col gap-2 items-end border-2 p-4 rounded-3xl"
